@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;400;500;700;800&display=swap%27');
+
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+}
+body{
+	
+}
+header{
+	background-color: #fff;
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+}
+#hero {
+	background-image: url("../img/home-grid-new-slide-4.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 15%;
+	text-align: center;
+}
+
+#hero h1 {
+	color: #fff;
+	font-weight: 800;
+	font-size: 60px;
+	text-align: center;
+}
+#hero p {color: #fff; text-align: center;
+}
+#grid {
+	padding:4%;
+}
+
+#grid h6 {
+	font-weight: 100px;
+	font-size: 20px;
+	text-align: center;
+}
+#grid p{
+	text-align: center;
+}
+
+#icons {
+	padding: 9%;
+	background-attachment: fixed;
+  	background-repeat: no-repeat;
+}
+
+#icons h6 {
+	color: var(--color-fondog);
+	font-weight: 550;
+}
+
+#icons a {
+	color: var(--color-fondog);
+}
+
+#products {
+	padding: 10%;
+}
+
+#products h4 {
+	color: var(--color-negro);
+	font-weight: 550;
+}
+
+#products h6 {
+	color: var(--color-negro);
+}
+
+#logos {
+	padding: 2%;
+	background-color: var(--color-fondog);
+}
+
+.btn-primary {
+	background-color:#fff;
+	border-radius: 90px;
+	padding: 20px;
+	border-color: transparent;
+	color: #070707;
+
+}
+#final {
+	background-image: url("../img/home-grid-banner.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 2%;
+	text-align: center;
+	color: #fff;
+}
